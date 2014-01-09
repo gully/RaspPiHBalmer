@@ -12,7 +12,7 @@ io.output(power_pin, False)
 
 ii=0
 
-while (ii < 1):
+while (ii < 6):
         if io.input(pir_pin): 
                 print ii
                 ii=ii+1
